@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import json
 
-# Set page configuration
+
 st.set_page_config(
     page_title="Credit Assessment",
     page_icon="💳",
@@ -10,7 +10,7 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-# CSS for styling
+
 st.markdown(
     """
     <style>
@@ -51,7 +51,6 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# Initialize session state variable to track the page
 if 'page' not in st.session_state:
     st.session_state.page = "home"
 if 'form_data' not in st.session_state:
@@ -59,7 +58,6 @@ if 'form_data' not in st.session_state:
 if 'eligibility' not in st.session_state:
     st.session_state.eligibility = None
 
-# Home page layout
 if st.session_state.page == "home":
     st.markdown('<div class="header">Welcome to Credit Assessment 🎉</div>', unsafe_allow_html=True)
     st.markdown(
