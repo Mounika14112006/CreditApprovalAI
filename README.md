@@ -72,7 +72,7 @@ To run this project, you need Python 3.x and the following libraries:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/Aayushipandey54/AI_Predictive_Models_for_Credit_Underwriting.git
+    git clone https://github.com/Mounika14112006/CreditApprovalAI
     cd AI_Predictive_Models_for_Credit_Underwriting
     ```
 
