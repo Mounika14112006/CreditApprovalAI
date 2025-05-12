@@ -4,4 +4,4 @@ numpy==1.23.0
 pandas==1.4.3
 scikit-learn==1.0.2
 joblib==1.2.0
-sqlite3==3.36.0
+setuptools>=65.0.0
